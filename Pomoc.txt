@@ -23,5 +23,6 @@ symfony console make:controller <Nazwa>
 symfony console make:entity			// Tworzenie encji
 php bin/console make:migration			// Utworzenie migracji bazy danych
 php bin/console doctrine:migrations:migrate	// Wykonanie migracji bazy danych
-php bin/console make:fixture			// Utworzenie przykładowych danych do bazy danych
+php bin/console make:fixtures			// Utworzenie przykładowych danych do bazy danych
 php bin/console doctrine:fixtures:load		// Załadowanie przykładowych danych do bazy danych
+
