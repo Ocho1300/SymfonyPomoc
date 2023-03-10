@@ -1,0 +1,10 @@
+<VirtualHost *:80>
+	ServerName localhost
+	DocumentRoot "C:/xampp/htdocs/public"
+
+	<Directory "C:/xampp/htdocs/public">
+		Options Indexes FollowSymLinks
+		AllowOverride All
+		Require all granted
+	</Directory>
+</VirtualHost>
